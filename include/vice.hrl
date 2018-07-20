@@ -1,3 +1,3 @@
 -define(VIDEO_ENCODERS, [vice_prv_ffmpeg]).
 -define(PHOTO_ENCODERS, [vice_prv_imagemagick]).
--define(AUDIO_ENCODERS, [vice_prv_sox]).
+-define(AUDIO_ENCODERS, [vice_prv_ffmpeg]).
