@@ -29,6 +29,7 @@
   {output_eof_position,    output,  "-sseof",                [{{erlang, is_list}, to_arg}, {{erlang, is_binary}, to_arg}, {{erlang, is_integer}, to_arg}]},
   {encoder,                output, "-c",                     [{{vice_prv_options, is_list_and_list}, to_dotargs}, {{erlang, is_list}, to_arg}, {{erlang, is_binary}, to_arg}]},
   {bitrate,                output, "-b",                     [{{vice_prv_options, is_list_and_list}, to_dotargs}, {{erlang, is_list}, to_arg}, {{erlang, is_binary}, to_arg}, {{erlang, is_integer}, to_arg}]},
+  {audio_bitrate,          output, "-b:a",                   [{{vice_prv_options, is_list_and_list}, to_dotargs}, {{erlang, is_list}, to_arg}, {{erlang, is_binary}, to_arg}, {{erlang, is_integer}, to_arg}]},
   {timestamp,              output, "-timestamp",             [{{erlang, is_list}, to_arg}, {{erlang, is_binary}, to_arg}]},
   {target,                 output, "-target",                [{{erlang, is_list}, to_arg}, {{erlang, is_binary}, to_arg}]},
   {dframes,                output, "-dframes",               [{{erlang, is_integer}, to_arg}]},
